@@ -3,71 +3,102 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2023-08-19T04:17:51.594Z",
-        "line": 4,
-        "name": "User is able to open the browser. nevigate to the URL and search for Product",
+        "start_timestamp": "2023-08-26T04:09:34.828Z",
+        "before": [
+          {
+            "output": [
+              "Browser Got Opened"
+            ],
+            "result": {
+              "duration": 1743385000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "User is click on the Product and check the Product Details",
         "description": "",
-        "id": "e-commerce-project-website-health-checkup;user-is-able-to-open-the-browser.-nevigate-to-the-url-and-search-for-product",
+        "id": "e-commerce-project-website-health-checkup;user-is-click-on-the-product-and-check-the-product-details",
+        "after": [
+          {
+            "output": [
+              "Browser got closed"
+            ],
+            "result": {
+              "duration": 164311600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.cleanUp()"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
+            "output": [
+              "User navigated to appication URL as -\u003e https://www.amazon.in/"
+            ],
             "result": {
-              "duration": 1461082400,
+              "duration": 4391292300,
               "status": "passed"
             },
-            "line": 5,
-            "name": "user opened browser",
-            "match": {
-              "location": "com.qa.automation.stepdefs.StepDefs.user_opened_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2757025600,
-              "status": "passed"
-            },
-            "line": 6,
+            "line": 39,
             "name": "user navigate to the home application url",
             "match": {
               "location": "com.qa.automation.stepdefs.StepDefs.user_navigate_to_the_home_application_url()"
             },
-            "keyword": "And "
+            "keyword": "Given "
           },
           {
+            "output": [
+              "Searching for a product name as -\u003e Power Bank"
+            ],
             "result": {
-              "duration": 4173045100,
+              "duration": 4651380300,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user search for product \"Laptop\"",
+            "line": 40,
+            "name": "user search for product \"Power Bank\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Laptop\"",
+                  "val": "\"Power Bank\"",
                   "offset": 24
                 }
               ],
               "location": "com.qa.automation.stepdefs.StepDefs.user_search_for_product(java.lang.String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 183253500,
+              "duration": 226816400,
               "status": "passed"
             },
-            "line": 8,
-            "name": "Search result page is displayed with page title keyword contains \"Laptop\"",
+            "line": 41,
+            "name": "User click on any product",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Laptop\"",
-                  "offset": 65
-                }
-              ],
-              "location": "com.qa.automation.stepdefs.StepDefs.search_result_page_is_displayed_with_page_title_keyword_contains(java.lang.String)"
+              "location": "com.qa.automation.stepdefs.StepDefs.user_click_on_any_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "output": [
+              "switched to the new tab"
+            ],
+            "result": {
+              "duration": 6491930800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Product Description is displayed in new tab",
+            "match": {
+              "location": "com.qa.automation.stepdefs.StepDefs.product_description_is_displayed_in_new_tab()"
             },
             "keyword": "Then "
           }
@@ -78,6 +109,9 @@
           },
           {
             "name": "@healthcheck"
+          },
+          {
+            "name": "@ProdSeachWithDesc"
           }
         ]
       }

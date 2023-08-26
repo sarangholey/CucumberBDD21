@@ -1,0 +1,18 @@
+2023-Aug-26 09:39:35 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Setting up for browser path is completed
+2023-Aug-26 09:39:35 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Setting up chrome binary
+2023-Aug-26 09:39:36 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Browser Got Opened
+2023-Aug-26 09:39:36 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Browser got maximized
+2023-Aug-26 09:39:36 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Browser cookies got deleted
+2023-Aug-26 09:39:36 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Implicit timeout set for 20
+2023-Aug-26 09:39:40 am [main] INFO  com.qa.automation.stepdefs.StepDefs - User navigated to appication URL as -> https://www.amazon.in/
+2023-Aug-26 09:39:41 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Home page title validation is successful with title as Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in
+2023-Aug-26 09:39:41 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Sent keys in searchbox to find a product as Power Bank
+2023-Aug-26 09:39:45 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Clicked on search button
+2023-Aug-26 09:39:45 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Captured the list of products
+2023-Aug-26 09:39:45 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Clicked on the first product form the captured list
+2023-Aug-26 09:39:45 am [main] INFO  com.qa.automation.stepdefs.StepDefs - captured the window handles
+2023-Aug-26 09:39:45 am [main] INFO  com.qa.automation.stepdefs.StepDefs - switched to the new tab
+2023-Aug-26 09:39:52 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Product with title in new tab is displayed
+2023-Aug-26 09:39:52 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Att to cart button is displayed
+2023-Aug-26 09:39:52 am [main] INFO  com.qa.automation.stepdefs.StepDefs - driver switched back to original window
+2023-Aug-26 09:39:52 am [main] INFO  com.qa.automation.stepdefs.StepDefs - Browser got closed
